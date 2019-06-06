@@ -1,0 +1,4940 @@
+{
+  "organizations": [
+    {
+      "id": 0,
+      "name": "Isologics",
+      "type": "IKA",
+      "arkadeClients": [
+        {
+          "id": 0,
+          "version": "1.4.0",
+          "userInterface": "GUI",
+          "operatingSystem": "Windows",
+          "processingSessions": [
+            {
+              "id": 0,
+              "time": "2019-03-28T08:29:10",
+              "archiveType": "N3",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 3736,
+                "failingTests": [
+                  {
+                    "testId": "N5.50"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 15544216429,
+                "duration": 1520
+              }
+            },
+            {
+              "id": 1,
+              "time": "2019-02-12T05:08:29",
+              "archiveType": "N3",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 12355,
+                "failingTests": [
+                  {
+                    "testId": "N5.17"
+                  },
+                  {
+                    "testId": "N5.18"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 1523454807,
+                "duration": 12213
+              }
+            },
+            {
+              "id": 2,
+              "time": "2019-04-12T10:01:18",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 17049,
+                "failingTests": [
+                  {
+                    "testId": "N5.05"
+                  },
+                  {
+                    "testId": "N5.42"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 6647710337,
+                "duration": 2997
+              }
+            },
+            {
+              "id": 3,
+              "time": "2019-02-22T09:10:39",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 17556,
+                "failingTests": [
+                  {
+                    "testId": "N5.59"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 15337270577,
+                "duration": 1824
+              }
+            },
+            {
+              "id": 4,
+              "time": "2019-03-05T06:02:53",
+              "archiveType": "N3",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 15197,
+                "failingTests": [
+                  {
+                    "testId": "N5.41"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 4061837747,
+                "duration": 12233
+              }
+            },
+            {
+              "id": 5,
+              "time": "2019-03-04T01:42:11",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 2088,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 4427193509,
+                "duration": 13964
+              }
+            },
+            {
+              "id": 6,
+              "time": "2019-05-21T10:10:25",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 1392,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 4086637893,
+                "duration": 10216
+              }
+            },
+            {
+              "id": 7,
+              "time": "2019-02-27T10:58:00",
+              "archiveType": "FS",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 4969,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 15871704960,
+                "duration": 4355
+              }
+            },
+            {
+              "id": 8,
+              "time": "2019-03-07T10:23:57",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 5173,
+                "failingTests": [
+                  {
+                    "testId": "N5.25"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 450033949,
+                "duration": 12568
+              }
+            },
+            {
+              "id": 9,
+              "time": "2019-05-23T11:47:23",
+              "archiveType": "N5",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 9538,
+                "failingTests": [
+                  {
+                    "testId": "N5.03"
+                  },
+                  {
+                    "testId": "N5.17"
+                  },
+                  {
+                    "testId": "N5.28"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 12596523826,
+                "duration": 14104
+              }
+            },
+            {
+              "id": 10,
+              "time": "2019-03-20T05:50:56",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 2000,
+                "failingTests": [
+                  {
+                    "testId": "N5.08"
+                  },
+                  {
+                    "testId": "N5.33"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 12494199861,
+                "duration": 8717
+              }
+            },
+            {
+              "id": 11,
+              "time": "2019-04-28T06:48:23",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 10586,
+                "failingTests": [
+                  {
+                    "testId": "N5.22"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 9693717297,
+                "duration": 12658
+              }
+            },
+            {
+              "id": 12,
+              "time": "2019-03-18T06:57:57",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 5513,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 12550777204,
+                "duration": 8149
+              }
+            },
+            {
+              "id": 13,
+              "time": "2019-02-06T01:23:04",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 7508,
+                "failingTests": [
+                  {
+                    "testId": "N5.48"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 2556160773,
+                "duration": 1865
+              }
+            },
+            {
+              "id": 14,
+              "time": "2019-04-07T02:03:41",
+              "archiveType": "N3",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 1008,
+                "failingTests": [
+                  {
+                    "testId": "N5.49"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 15879576812,
+                "duration": 9524
+              }
+            },
+            {
+              "id": 15,
+              "time": "2019-02-09T11:59:06",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 13397,
+                "failingTests": [
+                  {
+                    "testId": "N5.39"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 8193490278,
+                "duration": 4109
+              }
+            },
+            {
+              "id": 16,
+              "time": "2019-03-14T04:32:10",
+              "archiveType": "N5",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 3206,
+                "failingTests": [
+                  {
+                    "testId": "N5.09"
+                  },
+                  {
+                    "testId": "N5.53"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 10490299955,
+                "duration": 905
+              }
+            },
+            {
+              "id": 17,
+              "time": "2019-05-06T07:08:28",
+              "archiveType": "N3",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 2421,
+                "failingTests": [
+                  {
+                    "testId": "N5.33"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 10573596603,
+                "duration": 11467
+              }
+            },
+            {
+              "id": 18,
+              "time": "2019-05-01T08:40:10",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 9202,
+                "failingTests": [
+                  {
+                    "testId": "N5.44"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 789453815,
+                "duration": 14410
+              }
+            },
+            {
+              "id": 19,
+              "time": "2019-06-02T03:30:03",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 6615,
+                "failingTests": [
+                  {
+                    "testId": "N5.36"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 8723065938,
+                "duration": 16001
+              }
+            },
+            {
+              "id": 20,
+              "time": "2019-02-09T06:26:58",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 12424,
+                "failingTests": [
+                  {
+                    "testId": "N5.61"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 3820835285,
+                "duration": 10476
+              }
+            },
+            {
+              "id": 21,
+              "time": "2019-05-28T11:59:54",
+              "archiveType": "N3",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 11169,
+                "failingTests": [
+                  {
+                    "testId": "N5.26"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 15358317278,
+                "duration": 15471
+              }
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "version": "1.4.0",
+          "userInterface": "GUI",
+          "operatingSystem": "Windows",
+          "processingSessions": [
+            {
+              "id": 0,
+              "time": "2019-03-11T12:07:49",
+              "archiveType": "N3",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 17646,
+                "failingTests": [
+                  {
+                    "testId": "N5.47"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 629432292,
+                "duration": 8736
+              }
+            },
+            {
+              "id": 1,
+              "time": "2019-04-28T01:31:46",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 16927,
+                "failingTests": [
+                  {
+                    "testId": "N5.17"
+                  },
+                  {
+                    "testId": "N5.62"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 5785460685,
+                "duration": 10407
+              }
+            },
+            {
+              "id": 2,
+              "time": "2019-03-13T05:41:47",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 13674,
+                "failingTests": [
+                  {
+                    "testId": "N5.02"
+                  },
+                  {
+                    "testId": "N5.28"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 1647816583,
+                "duration": 9797
+              }
+            },
+            {
+              "id": 3,
+              "time": "2019-05-20T05:38:05",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 542,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 5731987148,
+                "duration": 10474
+              }
+            },
+            {
+              "id": 4,
+              "time": "2019-04-06T12:38:34",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 9203,
+                "failingTests": [
+                  {
+                    "testId": "N5.39"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 4860035773,
+                "duration": 7875
+              }
+            },
+            {
+              "id": 5,
+              "time": "2019-04-10T02:20:53",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 5082,
+                "failingTests": [
+                  {
+                    "testId": "N5.23"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 12880845246,
+                "duration": 13034
+              }
+            },
+            {
+              "id": 6,
+              "time": "2019-03-20T02:26:12",
+              "archiveType": "N3",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 15415,
+                "failingTests": [
+                  {
+                    "testId": "N5.38"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 12986960769,
+                "duration": 2998
+              }
+            },
+            {
+              "id": 7,
+              "time": "2019-05-21T02:22:58",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 4716,
+                "failingTests": [
+                  {
+                    "testId": "N5.63"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 13751408370,
+                "duration": 7800
+              }
+            },
+            {
+              "id": 8,
+              "time": "2019-04-27T01:27:09",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 11838,
+                "failingTests": [
+                  {
+                    "testId": "N5.56"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 7835783719,
+                "duration": 12611
+              }
+            },
+            {
+              "id": 9,
+              "time": "2019-05-14T04:10:22",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 7677,
+                "failingTests": [
+                  {
+                    "testId": "N5.41"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 2305275655,
+                "duration": 11252
+              }
+            },
+            {
+              "id": 10,
+              "time": "2019-02-28T02:35:04",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 3130,
+                "failingTests": [
+                  {
+                    "testId": "N5.27"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 12897413153,
+                "duration": 11707
+              }
+            },
+            {
+              "id": 11,
+              "time": "2019-03-07T06:01:06",
+              "archiveType": "N3",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 2328,
+                "failingTests": [
+                  {
+                    "testId": "N5.10"
+                  },
+                  {
+                    "testId": "N5.56"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 10949533632,
+                "duration": 1047
+              }
+            },
+            {
+              "id": 12,
+              "time": "2019-05-04T01:18:54",
+              "archiveType": "N3",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 8169,
+                "failingTests": [
+                  {
+                    "testId": "N5.46"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 12547642561,
+                "duration": 17513
+              }
+            },
+            {
+              "id": 13,
+              "time": "2019-04-05T11:19:29",
+              "archiveType": "N3",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 101,
+                "failingTests": [
+                  {
+                    "testId": "N5.19"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 1899463985,
+                "duration": 15662
+              }
+            },
+            {
+              "id": 14,
+              "time": "2019-05-12T04:29:12",
+              "archiveType": "N3",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 3445,
+                "failingTests": [
+                  {
+                    "testId": "N5.31"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 2330986509,
+                "duration": 887
+              }
+            },
+            {
+              "id": 15,
+              "time": "2019-05-12T06:47:19",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 4213,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 13949947051,
+                "duration": 3086
+              }
+            },
+            {
+              "id": 16,
+              "time": "2019-03-29T09:40:18",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 2614,
+                "failingTests": [
+                  {
+                    "testId": "N5.61"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 9056141031,
+                "duration": 954
+              }
+            },
+            {
+              "id": 17,
+              "time": "2019-03-12T06:17:32",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 4449,
+                "failingTests": [
+                  {
+                    "testId": "N5.36"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 11877844265,
+                "duration": 3360
+              }
+            },
+            {
+              "id": 18,
+              "time": "2019-03-07T11:51:39",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 3089,
+                "failingTests": [
+                  {
+                    "testId": "N5.22"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 6321241005,
+                "duration": 14862
+              }
+            },
+            {
+              "id": 19,
+              "time": "2019-03-15T09:23:21",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 4800,
+                "failingTests": [
+                  {
+                    "testId": "N5.37"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 15552960179,
+                "duration": 1940
+              }
+            },
+            {
+              "id": 20,
+              "time": "2019-02-09T07:09:29",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 13280,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 1180346426,
+                "duration": 17311
+              }
+            },
+            {
+              "id": 21,
+              "time": "2019-05-22T11:32:04",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 12536,
+                "failingTests": [
+                  {
+                    "testId": "N5.29"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 227690941,
+                "duration": 10110
+              }
+            },
+            {
+              "id": 22,
+              "time": "2019-05-24T10:35:05",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 1166,
+                "failingTests": [
+                  {
+                    "testId": "N5.49"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 3592453407,
+                "duration": 13710
+              }
+            },
+            {
+              "id": 23,
+              "time": "2019-02-10T12:56:48",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 6203,
+                "failingTests": [
+                  {
+                    "testId": "N5.42"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 6980731598,
+                "duration": 6247
+              }
+            },
+            {
+              "id": 24,
+              "time": "2019-05-04T10:59:33",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 17449,
+                "failingTests": [
+                  {
+                    "testId": "N5.46"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 6907738506,
+                "duration": 4142
+              }
+            },
+            {
+              "id": 25,
+              "time": "2019-03-09T10:18:23",
+              "archiveType": "N5",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 10916,
+                "failingTests": [
+                  {
+                    "testId": "N5.30"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 8600038359,
+                "duration": 10297
+              }
+            },
+            {
+              "id": 26,
+              "time": "2019-02-26T03:45:58",
+              "archiveType": "N5",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 1356,
+                "failingTests": [
+                  {
+                    "testId": "N5.41"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 2890880857,
+                "duration": 7508
+              }
+            },
+            {
+              "id": 27,
+              "time": "2019-02-28T09:03:39",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 12104,
+                "failingTests": [
+                  {
+                    "testId": "N5.52"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 15206907537,
+                "duration": 7353
+              }
+            },
+            {
+              "id": 28,
+              "time": "2019-03-29T10:08:12",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 10743,
+                "failingTests": [
+                  {
+                    "testId": "N5.21"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 3136452671,
+                "duration": 5699
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "version": "1.4.0",
+          "userInterface": "GUI",
+          "operatingSystem": "Windows",
+          "processingSessions": [
+            {
+              "id": 0,
+              "time": "2019-03-23T08:23:30",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 5218,
+                "failingTests": [
+                  {
+                    "testId": "N5.17"
+                  },
+                  {
+                    "testId": "N5.29"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 6313413963,
+                "duration": 8823
+              }
+            },
+            {
+              "id": 1,
+              "time": "2019-04-21T01:30:19",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 13728,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 11369341242,
+                "duration": 4420
+              }
+            },
+            {
+              "id": 2,
+              "time": "2019-04-08T03:34:04",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 11337,
+                "failingTests": [
+                  {
+                    "testId": "N5.18"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 10882876765,
+                "duration": 802
+              }
+            },
+            {
+              "id": 3,
+              "time": "2019-05-12T12:56:29",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 7420,
+                "failingTests": [
+                  {
+                    "testId": "N5.17"
+                  },
+                  {
+                    "testId": "N5.35"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 7250111511,
+                "duration": 4922
+              }
+            },
+            {
+              "id": 4,
+              "time": "2019-03-11T03:04:26",
+              "archiveType": "N3",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 1046,
+                "failingTests": [
+                  {
+                    "testId": "N5.13"
+                  },
+                  {
+                    "testId": "N5.37"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 11362653589,
+                "duration": 2106
+              }
+            },
+            {
+              "id": 5,
+              "time": "2019-04-16T04:44:20",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 11303,
+                "failingTests": [
+                  {
+                    "testId": "N5.43"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 2616550378,
+                "duration": 12959
+              }
+            },
+            {
+              "id": 6,
+              "time": "2019-05-11T06:45:53",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 3031,
+                "failingTests": [
+                  {
+                    "testId": "N5.40"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 11201060798,
+                "duration": 12275
+              }
+            },
+            {
+              "id": 7,
+              "time": "2019-04-27T03:36:19",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 12284,
+                "failingTests": [
+                  {
+                    "testId": "N5.61"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 3380974151,
+                "duration": 6401
+              }
+            },
+            {
+              "id": 8,
+              "time": "2019-03-01T01:00:07",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 17268,
+                "failingTests": [
+                  {
+                    "testId": "N5.60"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 169985989,
+                "duration": 6488
+              }
+            },
+            {
+              "id": 9,
+              "time": "2019-02-08T11:09:12",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 8725,
+                "failingTests": [
+                  {
+                    "testId": "N5.01"
+                  },
+                  {
+                    "testId": "N5.61"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 6416181018,
+                "duration": 16782
+              }
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "version": "1.4.0",
+          "userInterface": "GUI",
+          "operatingSystem": "Windows",
+          "processingSessions": [
+            {
+              "id": 0,
+              "time": "2019-02-07T04:26:12",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 5290,
+                "failingTests": [
+                  {
+                    "testId": "N5.17"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 5396550485,
+                "duration": 17531
+              }
+            },
+            {
+              "id": 1,
+              "time": "2019-05-20T08:45:41",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 6614,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 2862759088,
+                "duration": 10988
+              }
+            },
+            {
+              "id": 2,
+              "time": "2019-02-08T05:51:38",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 6363,
+                "failingTests": [
+                  {
+                    "testId": "N5.20"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 10304531446,
+                "duration": 2050
+              }
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "version": "1.4.0",
+          "userInterface": "GUI",
+          "operatingSystem": "macOS",
+          "processingSessions": [
+            {
+              "id": 0,
+              "time": "2019-05-07T11:03:02",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 16943,
+                "failingTests": [
+                  {
+                    "testId": "N5.21"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 267033523,
+                "duration": 9521
+              }
+            },
+            {
+              "id": 1,
+              "time": "2019-02-01T03:41:15",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 3219,
+                "failingTests": [
+                  {
+                    "testId": "N5.56"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 6386374938,
+                "duration": 11537
+              }
+            },
+            {
+              "id": 2,
+              "time": "2019-02-07T11:17:52",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 1816,
+                "failingTests": [
+                  {
+                    "testId": "N5.17"
+                  },
+                  {
+                    "testId": "N5.35"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 12433081460,
+                "duration": 8799
+              }
+            },
+            {
+              "id": 3,
+              "time": "2019-02-04T06:01:12",
+              "archiveType": "N3",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 11698,
+                "failingTests": [
+                  {
+                    "testId": "N5.03"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 103267561,
+                "duration": 12199
+              }
+            },
+            {
+              "id": 4,
+              "time": "2019-04-23T05:46:25",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 3942,
+                "failingTests": [
+                  {
+                    "testId": "N5.57"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 5480872633,
+                "duration": 2660
+              }
+            },
+            {
+              "id": 5,
+              "time": "2019-04-28T03:02:12",
+              "archiveType": "N3",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 17588,
+                "failingTests": [
+                  {
+                    "testId": "N5.39"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 13756824027,
+                "duration": 1394
+              }
+            },
+            {
+              "id": 6,
+              "time": "2019-02-01T10:33:03",
+              "archiveType": "N5",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 4112,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 15283064878,
+                "duration": 2164
+              }
+            },
+            {
+              "id": 7,
+              "time": "2019-04-22T02:53:28",
+              "archiveType": "N3",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 4937,
+                "failingTests": [
+                  {
+                    "testId": "N5.21"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 4403544920,
+                "duration": 14582
+              }
+            },
+            {
+              "id": 8,
+              "time": "2019-02-18T11:13:13",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 3734,
+                "failingTests": [
+                  {
+                    "testId": "N5.38"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 11651044572,
+                "duration": 13551
+              }
+            },
+            {
+              "id": 9,
+              "time": "2019-03-28T10:57:42",
+              "archiveType": "N3",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 1198,
+                "failingTests": [
+                  {
+                    "testId": "N5.07"
+                  },
+                  {
+                    "testId": "N5.23"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 1785866697,
+                "duration": 10994
+              }
+            },
+            {
+              "id": 10,
+              "time": "2019-02-23T09:50:25",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 4666,
+                "failingTests": [
+                  {
+                    "testId": "N5.29"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 7129258634,
+                "duration": 4786
+              }
+            },
+            {
+              "id": 11,
+              "time": "2019-05-31T04:09:23",
+              "archiveType": "FS",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 15870,
+                "failingTests": [
+                  {
+                    "testId": "N5.53"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 9983673333,
+                "duration": 1507
+              }
+            },
+            {
+              "id": 12,
+              "time": "2019-03-13T03:59:01",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 15426,
+                "failingTests": [
+                  {
+                    "testId": "N5.18"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 2595324991,
+                "duration": 16950
+              }
+            },
+            {
+              "id": 13,
+              "time": "2019-05-16T04:57:49",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 8736,
+                "failingTests": [
+                  {
+                    "testId": "N5.49"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 2676911647,
+                "duration": 101
+              }
+            },
+            {
+              "id": 14,
+              "time": "2019-05-18T06:10:50",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 16572,
+                "failingTests": [
+                  {
+                    "testId": "N5.29"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 12431991995,
+                "duration": 13550
+              }
+            },
+            {
+              "id": 15,
+              "time": "2019-05-26T07:39:13",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 6866,
+                "failingTests": [
+                  {
+                    "testId": "N5.47"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 14593681302,
+                "duration": 15731
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Cablam",
+      "type": "Byarkiv",
+      "arkadeClients": [
+        {
+          "id": 0,
+          "version": "1.4.0",
+          "userInterface": "GUI",
+          "operatingSystem": "Windows",
+          "processingSessions": [
+            {
+              "id": 0,
+              "time": "2019-03-22T12:07:54",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 17290,
+                "failingTests": [
+                  {
+                    "testId": "N5.61"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 10007826635,
+                "duration": 12451
+              }
+            },
+            {
+              "id": 1,
+              "time": "2019-05-10T03:53:43",
+              "archiveType": "N3",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 5139,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 13257870733,
+                "duration": 5967
+              }
+            },
+            {
+              "id": 2,
+              "time": "2019-02-13T07:38:01",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 13663,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 14062927223,
+                "duration": 3188
+              }
+            },
+            {
+              "id": 3,
+              "time": "2019-04-21T04:39:30",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 10719,
+                "failingTests": [
+                  {
+                    "testId": "N5.17"
+                  },
+                  {
+                    "testId": "N5.32"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 5864545795,
+                "duration": 13894
+              }
+            },
+            {
+              "id": 4,
+              "time": "2019-04-22T11:22:16",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 4110,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 1978557531,
+                "duration": 8682
+              }
+            },
+            {
+              "id": 5,
+              "time": "2019-05-19T01:50:25",
+              "archiveType": "N3",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 17973,
+                "failingTests": [
+                  {
+                    "testId": "N5.35"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 12149930452,
+                "duration": 2850
+              }
+            },
+            {
+              "id": 6,
+              "time": "2019-04-29T11:16:37",
+              "archiveType": "N5",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 8812,
+                "failingTests": [
+                  {
+                    "testId": "N5.20"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 11243286023,
+                "duration": 3144
+              }
+            },
+            {
+              "id": 7,
+              "time": "2019-03-22T07:27:11",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 13890,
+                "failingTests": [
+                  {
+                    "testId": "N5.47"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 476920767,
+                "duration": 11805
+              }
+            },
+            {
+              "id": 8,
+              "time": "2019-03-26T02:54:42",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 2938,
+                "failingTests": [
+                  {
+                    "testId": "N5.60"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 8329435470,
+                "duration": 17384
+              }
+            },
+            {
+              "id": 9,
+              "time": "2019-04-05T10:04:22",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 14761,
+                "failingTests": [
+                  {
+                    "testId": "N5.03"
+                  },
+                  {
+                    "testId": "N5.37"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 1856342145,
+                "duration": 579
+              }
+            },
+            {
+              "id": 10,
+              "time": "2019-03-23T11:33:30",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 8578,
+                "failingTests": [
+                  {
+                    "testId": "N5.54"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 9819907680,
+                "duration": 14265
+              }
+            },
+            {
+              "id": 11,
+              "time": "2019-05-04T05:58:34",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 3509,
+                "failingTests": [
+                  {
+                    "testId": "N5.61"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 14898347907,
+                "duration": 3492
+              }
+            },
+            {
+              "id": 12,
+              "time": "2019-02-25T04:54:16",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 9736,
+                "failingTests": [
+                  {
+                    "testId": "N5.46"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 5221876378,
+                "duration": 2798
+              }
+            },
+            {
+              "id": 13,
+              "time": "2019-02-11T03:01:09",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 4047,
+                "failingTests": [
+                  {
+                    "testId": "N5.26"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 8703417657,
+                "duration": 11353
+              }
+            },
+            {
+              "id": 14,
+              "time": "2019-02-26T09:37:05",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 11155,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 4730061620,
+                "duration": 8074
+              }
+            },
+            {
+              "id": 15,
+              "time": "2019-03-13T02:28:04",
+              "archiveType": "N3",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 587,
+                "failingTests": [
+                  {
+                    "testId": "N5.17"
+                  },
+                  {
+                    "testId": "N5.45"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 2996158194,
+                "duration": 4799
+              }
+            },
+            {
+              "id": 16,
+              "time": "2019-05-07T03:56:24",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 9322,
+                "failingTests": [
+                  {
+                    "testId": "N5.17"
+                  },
+                  {
+                    "testId": "N5.21"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 3014989918,
+                "duration": 6952
+              }
+            },
+            {
+              "id": 17,
+              "time": "2019-03-08T04:38:31",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 3641,
+                "failingTests": [
+                  {
+                    "testId": "N5.61"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 12817391301,
+                "duration": 15016
+              }
+            },
+            {
+              "id": 18,
+              "time": "2019-02-14T11:39:44",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 12486,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 14888748797,
+                "duration": 13237
+              }
+            },
+            {
+              "id": 19,
+              "time": "2019-05-22T02:38:46",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 13106,
+                "failingTests": [
+                  {
+                    "testId": "N5.33"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 14589839136,
+                "duration": 16719
+              }
+            },
+            {
+              "id": 20,
+              "time": "2019-02-28T04:57:34",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 13398,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 9683107491,
+                "duration": 3008
+              }
+            },
+            {
+              "id": 21,
+              "time": "2019-03-02T03:42:10",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 2253,
+                "failingTests": [
+                  {
+                    "testId": "N5.53"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 7745225599,
+                "duration": 6285
+              }
+            },
+            {
+              "id": 22,
+              "time": "2019-03-13T07:39:43",
+              "archiveType": "N5",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 12026,
+                "failingTests": [
+                  {
+                    "testId": "N5.40"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 8091741780,
+                "duration": 10643
+              }
+            },
+            {
+              "id": 23,
+              "time": "2019-03-11T03:37:12",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 12085,
+                "failingTests": [
+                  {
+                    "testId": "N5.51"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 11274792313,
+                "duration": 10608
+              }
+            },
+            {
+              "id": 24,
+              "time": "2019-03-03T11:10:45",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 8975,
+                "failingTests": [
+                  {
+                    "testId": "N5.31"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 7247675017,
+                "duration": 11546
+              }
+            },
+            {
+              "id": 25,
+              "time": "2019-03-01T10:11:07",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 7673,
+                "failingTests": [
+                  {
+                    "testId": "N5.42"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 14685009414,
+                "duration": 2779
+              }
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "version": "1.4.0",
+          "userInterface": "GUI",
+          "operatingSystem": "macOS",
+          "processingSessions": [
+            {
+              "id": 0,
+              "time": "2019-02-05T06:24:54",
+              "archiveType": "N5",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 1799,
+                "failingTests": [
+                  {
+                    "testId": "N5.49"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 10294778257,
+                "duration": 16124
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "version": "1.4.0",
+          "userInterface": "GUI",
+          "operatingSystem": "macOS",
+          "processingSessions": [
+            {
+              "id": 0,
+              "time": "2019-03-04T08:18:39",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 16354,
+                "failingTests": [
+                  {
+                    "testId": "N5.49"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 937358598,
+                "duration": 15656
+              }
+            },
+            {
+              "id": 1,
+              "time": "2019-04-18T09:06:46",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 10723,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 9445576282,
+                "duration": 2508
+              }
+            },
+            {
+              "id": 2,
+              "time": "2019-03-17T03:06:12",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 207,
+                "failingTests": [
+                  {
+                    "testId": "N5.33"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 11117616825,
+                "duration": 5233
+              }
+            },
+            {
+              "id": 3,
+              "time": "2019-03-30T03:10:09",
+              "archiveType": "N5",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 15709,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 10373067400,
+                "duration": 3972
+              }
+            },
+            {
+              "id": 4,
+              "time": "2019-02-07T02:24:41",
+              "archiveType": "N3",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 6271,
+                "failingTests": [
+                  {
+                    "testId": "N5.31"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 7530643753,
+                "duration": 7215
+              }
+            },
+            {
+              "id": 5,
+              "time": "2019-04-22T07:04:40",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 2353,
+                "failingTests": [
+                  {
+                    "testId": "N5.62"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 8971300054,
+                "duration": 13780
+              }
+            },
+            {
+              "id": 6,
+              "time": "2019-04-24T08:45:16",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 7504,
+                "failingTests": [
+                  {
+                    "testId": "N5.17"
+                  },
+                  {
+                    "testId": "N5.58"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 9253126303,
+                "duration": 14728
+              }
+            },
+            {
+              "id": 7,
+              "time": "2019-02-14T05:33:38",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 3870,
+                "failingTests": [
+                  {
+                    "testId": "N5.21"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 435151544,
+                "duration": 15510
+              }
+            },
+            {
+              "id": 8,
+              "time": "2019-02-01T09:39:20",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 11575,
+                "failingTests": [
+                  {
+                    "testId": "N5.10"
+                  },
+                  {
+                    "testId": "N5.19"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 13592916641,
+                "duration": 7860
+              }
+            },
+            {
+              "id": 9,
+              "time": "2019-02-04T06:44:43",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 11073,
+                "failingTests": [
+                  {
+                    "testId": "N5.45"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 11997253467,
+                "duration": 15767
+              }
+            },
+            {
+              "id": 10,
+              "time": "2019-04-09T03:14:51",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 6860,
+                "failingTests": [
+                  {
+                    "testId": "N5.50"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 12056994828,
+                "duration": 2304
+              }
+            },
+            {
+              "id": 11,
+              "time": "2019-03-18T04:50:44",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 9868,
+                "failingTests": [
+                  {
+                    "testId": "N5.52"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 10214784533,
+                "duration": 4189
+              }
+            },
+            {
+              "id": 12,
+              "time": "2019-03-22T05:24:52",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 5679,
+                "failingTests": [
+                  {
+                    "testId": "N5.57"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 3379890919,
+                "duration": 10209
+              }
+            },
+            {
+              "id": 13,
+              "time": "2019-02-02T05:41:58",
+              "archiveType": "FS",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 10141,
+                "failingTests": [
+                  {
+                    "testId": "N5.17"
+                  },
+                  {
+                    "testId": "N5.37"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 9794900112,
+                "duration": 15649
+              }
+            },
+            {
+              "id": 14,
+              "time": "2019-02-22T02:00:51",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 4648,
+                "failingTests": [
+                  {
+                    "testId": "N5.24"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 11004291395,
+                "duration": 4258
+              }
+            },
+            {
+              "id": 15,
+              "time": "2019-04-06T08:55:29",
+              "archiveType": "N3",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 10320,
+                "failingTests": [
+                  {
+                    "testId": "N5.48"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 11105029902,
+                "duration": 5401
+              }
+            },
+            {
+              "id": 16,
+              "time": "2019-05-03T08:38:08",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 17531,
+                "failingTests": [
+                  {
+                    "testId": "N5.42"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 7421905396,
+                "duration": 16486
+              }
+            },
+            {
+              "id": 17,
+              "time": "2019-02-20T04:37:08",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 10863,
+                "failingTests": [
+                  {
+                    "testId": "N5.19"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 3389486445,
+                "duration": 17884
+              }
+            },
+            {
+              "id": 18,
+              "time": "2019-04-13T05:12:11",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 13411,
+                "failingTests": [
+                  {
+                    "testId": "N5.52"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 5654019529,
+                "duration": 2123
+              }
+            },
+            {
+              "id": 19,
+              "time": "2019-03-15T09:52:25",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 9094,
+                "failingTests": [
+                  {
+                    "testId": "N5.45"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 8320126419,
+                "duration": 9303
+              }
+            },
+            {
+              "id": 20,
+              "time": "2019-03-03T07:49:49",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 8787,
+                "failingTests": [
+                  {
+                    "testId": "N5.34"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 10366800928,
+                "duration": 3895
+              }
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "version": "1.4.0",
+          "userInterface": "GUI",
+          "operatingSystem": "Windows",
+          "processingSessions": [
+            {
+              "id": 0,
+              "time": "2019-04-14T03:42:13",
+              "archiveType": "N3",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 12614,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 10136406809,
+                "duration": 7339
+              }
+            },
+            {
+              "id": 1,
+              "time": "2019-04-24T07:54:35",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 12686,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 7446665324,
+                "duration": 8682
+              }
+            },
+            {
+              "id": 2,
+              "time": "2019-04-18T05:33:19",
+              "archiveType": "N5",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 15835,
+                "failingTests": [
+                  {
+                    "testId": "N5.49"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 6275938541,
+                "duration": 15774
+              }
+            },
+            {
+              "id": 3,
+              "time": "2019-03-23T11:05:54",
+              "archiveType": "FS",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 4748,
+                "failingTests": [
+                  {
+                    "testId": "N5.43"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 1441179735,
+                "duration": 206
+              }
+            },
+            {
+              "id": 4,
+              "time": "2019-02-14T12:54:13",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 4170,
+                "failingTests": [
+                  {
+                    "testId": "N5.18"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 5614471438,
+                "duration": 14135
+              }
+            },
+            {
+              "id": 5,
+              "time": "2019-02-13T04:51:22",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 7573,
+                "failingTests": [
+                  {
+                    "testId": "N5.08"
+                  },
+                  {
+                    "testId": "N5.23"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 7550254808,
+                "duration": 3246
+              }
+            },
+            {
+              "id": 6,
+              "time": "2019-02-15T04:39:51",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 14353,
+                "failingTests": [
+                  {
+                    "testId": "N5.18"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 14626394929,
+                "duration": 10814
+              }
+            },
+            {
+              "id": 7,
+              "time": "2019-05-16T07:09:17",
+              "archiveType": "FS",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 12057,
+                "failingTests": [
+                  {
+                    "testId": "N5.44"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 657537671,
+                "duration": 9905
+              }
+            },
+            {
+              "id": 8,
+              "time": "2019-05-27T02:28:40",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 12214,
+                "failingTests": [
+                  {
+                    "testId": "N5.50"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 1927156821,
+                "duration": 7917
+              }
+            },
+            {
+              "id": 9,
+              "time": "2019-05-25T04:12:58",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 10147,
+                "failingTests": [
+                  {
+                    "testId": "N5.50"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 3591038331,
+                "duration": 16485
+              }
+            },
+            {
+              "id": 10,
+              "time": "2019-02-11T08:21:26",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 14014,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 519354362,
+                "duration": 7006
+              }
+            },
+            {
+              "id": 11,
+              "time": "2019-04-13T04:30:51",
+              "archiveType": "N3",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 8231,
+                "failingTests": [
+                  {
+                    "testId": "N5.38"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 6354311498,
+                "duration": 6533
+              }
+            },
+            {
+              "id": 12,
+              "time": "2019-03-28T06:17:20",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 17675,
+                "failingTests": [
+                  {
+                    "testId": "N5.22"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 5269487768,
+                "duration": 3383
+              }
+            },
+            {
+              "id": 13,
+              "time": "2019-04-06T07:43:37",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 16731,
+                "failingTests": [
+                  {
+                    "testId": "N5.33"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 907488878,
+                "duration": 4488
+              }
+            },
+            {
+              "id": 14,
+              "time": "2019-04-09T05:02:35",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 16302,
+                "failingTests": [
+                  {
+                    "testId": "N5.51"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 13213328590,
+                "duration": 4009
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Gology",
+      "type": "IKA",
+      "arkadeClients": [
+        {
+          "id": 0,
+          "version": "1.4.0",
+          "userInterface": "GUI",
+          "operatingSystem": "macOS",
+          "processingSessions": [
+            {
+              "id": 0,
+              "time": "2019-04-02T01:03:46",
+              "archiveType": "N5",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 1682,
+                "failingTests": [
+                  {
+                    "testId": "N5.28"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 1058697070,
+                "duration": 6290
+              }
+            },
+            {
+              "id": 1,
+              "time": "2019-02-01T01:04:37",
+              "archiveType": "N3",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 11157,
+                "failingTests": [
+                  {
+                    "testId": "N5.59"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 2551238271,
+                "duration": 4065
+              }
+            },
+            {
+              "id": 2,
+              "time": "2019-04-09T09:37:35",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 6923,
+                "failingTests": [
+                  {
+                    "testId": "N5.19"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 9911533024,
+                "duration": 3481
+              }
+            },
+            {
+              "id": 3,
+              "time": "2019-02-03T06:16:36",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 11941,
+                "failingTests": [
+                  {
+                    "testId": "N5.41"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 15113915295,
+                "duration": 12293
+              }
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "version": "1.4.0",
+          "userInterface": "GUI",
+          "operatingSystem": "macOS",
+          "processingSessions": [
+            {
+              "id": 0,
+              "time": "2019-04-06T04:06:23",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 248,
+                "failingTests": [
+                  {
+                    "testId": "N5.09"
+                  },
+                  {
+                    "testId": "N5.38"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 15147086675,
+                "duration": 8706
+              }
+            },
+            {
+              "id": 1,
+              "time": "2019-02-19T07:46:22",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 11019,
+                "failingTests": [
+                  {
+                    "testId": "N5.39"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 10920983800,
+                "duration": 7978
+              }
+            },
+            {
+              "id": 2,
+              "time": "2019-06-01T09:39:17",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 5692,
+                "failingTests": [
+                  {
+                    "testId": "N5.55"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 13710090745,
+                "duration": 2084
+              }
+            },
+            {
+              "id": 3,
+              "time": "2019-03-25T08:34:08",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 10932,
+                "failingTests": [
+                  {
+                    "testId": "N5.19"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 13729481259,
+                "duration": 2110
+              }
+            },
+            {
+              "id": 4,
+              "time": "2019-05-12T11:59:13",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 16884,
+                "failingTests": [
+                  {
+                    "testId": "N5.22"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 8959674874,
+                "duration": 9183
+              }
+            },
+            {
+              "id": 5,
+              "time": "2019-05-05T01:55:42",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 16477,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 10161307404,
+                "duration": 1299
+              }
+            },
+            {
+              "id": 6,
+              "time": "2019-03-16T06:26:58",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 10271,
+                "failingTests": [
+                  {
+                    "testId": "N5.19"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 11058070825,
+                "duration": 16395
+              }
+            },
+            {
+              "id": 7,
+              "time": "2019-04-21T10:36:40",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 8533,
+                "failingTests": [
+                  {
+                    "testId": "N5.34"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 7216203096,
+                "duration": 535
+              }
+            },
+            {
+              "id": 8,
+              "time": "2019-04-01T10:08:48",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 13542,
+                "failingTests": [
+                  {
+                    "testId": "N5.34"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 14202864491,
+                "duration": 2660
+              }
+            },
+            {
+              "id": 9,
+              "time": "2019-04-30T12:37:18",
+              "archiveType": "N3",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 663,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 6258856330,
+                "duration": 4408
+              }
+            },
+            {
+              "id": 10,
+              "time": "2019-04-13T03:49:11",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 16364,
+                "failingTests": [
+                  {
+                    "testId": "N5.34"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 5762631903,
+                "duration": 13366
+              }
+            },
+            {
+              "id": 11,
+              "time": "2019-03-23T10:30:18",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 6972,
+                "failingTests": [
+                  {
+                    "testId": "N5.44"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 14412722321,
+                "duration": 13255
+              }
+            },
+            {
+              "id": 12,
+              "time": "2019-03-19T04:00:55",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 11746,
+                "failingTests": [
+                  {
+                    "testId": "N5.43"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 5209733214,
+                "duration": 16769
+              }
+            },
+            {
+              "id": 13,
+              "time": "2019-03-08T03:24:00",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 15920,
+                "failingTests": [
+                  {
+                    "testId": "N5.61"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 13749919083,
+                "duration": 3672
+              }
+            },
+            {
+              "id": 14,
+              "time": "2019-05-01T02:05:17",
+              "archiveType": "FS",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 1685,
+                "failingTests": [
+                  {
+                    "testId": "N5.24"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 14444618626,
+                "duration": 3119
+              }
+            },
+            {
+              "id": 15,
+              "time": "2019-05-09T05:22:10",
+              "archiveType": "N5",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 10713,
+                "failingTests": [
+                  {
+                    "testId": "N5.22"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 5116299006,
+                "duration": 13959
+              }
+            },
+            {
+              "id": 16,
+              "time": "2019-03-10T05:44:56",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 11631,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 2922309321,
+                "duration": 10033
+              }
+            },
+            {
+              "id": 17,
+              "time": "2019-02-21T06:58:36",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 3040,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 14768053020,
+                "duration": 14252
+              }
+            },
+            {
+              "id": 18,
+              "time": "2019-02-13T08:43:07",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 3271,
+                "failingTests": [
+                  {
+                    "testId": "N5.61"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 3851469749,
+                "duration": 12657
+              }
+            },
+            {
+              "id": 19,
+              "time": "2019-02-21T05:15:21",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 13367,
+                "failingTests": [
+                  {
+                    "testId": "N5.23"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 2341788625,
+                "duration": 12676
+              }
+            },
+            {
+              "id": 20,
+              "time": "2019-04-05T04:32:45",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 8541,
+                "failingTests": [
+                  {
+                    "testId": "N5.29"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 14306151049,
+                "duration": 533
+              }
+            },
+            {
+              "id": 21,
+              "time": "2019-02-15T09:25:42",
+              "archiveType": "N3",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 6524,
+                "failingTests": [
+                  {
+                    "testId": "N5.42"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 14169657842,
+                "duration": 4417
+              }
+            },
+            {
+              "id": 22,
+              "time": "2019-02-22T05:17:33",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 13194,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 6406825714,
+                "duration": 7380
+              }
+            },
+            {
+              "id": 23,
+              "time": "2019-03-15T02:43:43",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 1644,
+                "failingTests": [
+                  {
+                    "testId": "N5.36"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 2556001816,
+                "duration": 4399
+              }
+            },
+            {
+              "id": 24,
+              "time": "2019-05-21T12:00:40",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 5615,
+                "failingTests": [
+                  {
+                    "testId": "N5.60"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 6344527531,
+                "duration": 1377
+              }
+            },
+            {
+              "id": 25,
+              "time": "2019-03-11T11:11:21",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 3792,
+                "failingTests": [
+                  {
+                    "testId": "N5.48"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 14111137664,
+                "duration": 11375
+              }
+            },
+            {
+              "id": 26,
+              "time": "2019-05-31T11:45:44",
+              "archiveType": "N5",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 3519,
+                "failingTests": [
+                  {
+                    "testId": "N5.28"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 1239100565,
+                "duration": 8846
+              }
+            },
+            {
+              "id": 27,
+              "time": "2019-04-19T04:16:17",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 12320,
+                "failingTests": [
+                  {
+                    "testId": "N5.06"
+                  },
+                  {
+                    "testId": "N5.54"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 4575347715,
+                "duration": 4377
+              }
+            },
+            {
+              "id": 28,
+              "time": "2019-05-16T04:44:00",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 3412,
+                "failingTests": [
+                  {
+                    "testId": "N5.42"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 12178542753,
+                "duration": 11496
+              }
+            },
+            {
+              "id": 29,
+              "time": "2019-04-25T08:12:17",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 14644,
+                "failingTests": [
+                  {
+                    "testId": "N5.53"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 6142164032,
+                "duration": 5285
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Ecstasia",
+      "type": "Depot",
+      "arkadeClients": [
+        {
+          "id": 0,
+          "version": "1.4.0",
+          "userInterface": "CLI",
+          "operatingSystem": "macOS",
+          "processingSessions": [
+            {
+              "id": 0,
+              "time": "2019-05-03T11:23:58",
+              "archiveType": "N3",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 12304,
+                "failingTests": [
+                  {
+                    "testId": "N5.51"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 12212463621,
+                "duration": 5344
+              }
+            },
+            {
+              "id": 1,
+              "time": "2019-04-09T02:06:23",
+              "archiveType": "FS",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 2839,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 12792018478,
+                "duration": 14729
+              }
+            },
+            {
+              "id": 2,
+              "time": "2019-05-06T03:06:12",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 16047,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 10693752142,
+                "duration": 1374
+              }
+            },
+            {
+              "id": 3,
+              "time": "2019-03-03T08:24:59",
+              "archiveType": "N3",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 16796,
+                "failingTests": [
+                  {
+                    "testId": "N5.19"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 12072831632,
+                "duration": 17859
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Rooforia",
+      "type": "Byarkiv",
+      "arkadeClients": [
+        {
+          "id": 0,
+          "version": "1.4.0",
+          "userInterface": "CLI",
+          "operatingSystem": "Windows",
+          "processingSessions": [
+            {
+              "id": 0,
+              "time": "2019-03-01T04:38:33",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 4827,
+                "failingTests": [
+                  {
+                    "testId": "N5.16"
+                  },
+                  {
+                    "testId": "N5.58"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 223810266,
+                "duration": 524
+              }
+            },
+            {
+              "id": 1,
+              "time": "2019-04-08T10:40:12",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 14276,
+                "failingTests": [
+                  {
+                    "testId": "N5.35"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 829354525,
+                "duration": 1837
+              }
+            },
+            {
+              "id": 2,
+              "time": "2019-03-03T02:23:42",
+              "archiveType": "N3",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 15887,
+                "failingTests": [
+                  {
+                    "testId": "N5.43"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 8226117018,
+                "duration": 12332
+              }
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "version": "1.1.0",
+          "userInterface": "GUI",
+          "operatingSystem": "macOS",
+          "processingSessions": [
+            {
+              "id": 0,
+              "time": "2019-03-16T10:21:18",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 1047,
+                "failingTests": [
+                  {
+                    "testId": "N5.43"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 15883971830,
+                "duration": 6923
+              }
+            },
+            {
+              "id": 1,
+              "time": "2019-04-25T05:53:40",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 11048,
+                "failingTests": [
+                  {
+                    "testId": "N5.04"
+                  },
+                  {
+                    "testId": "N5.38"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 11320186923,
+                "duration": 5779
+              }
+            },
+            {
+              "id": 2,
+              "time": "2019-05-29T10:49:49",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 14892,
+                "failingTests": [
+                  {
+                    "testId": "N5.29"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 1368040477,
+                "duration": 9677
+              }
+            },
+            {
+              "id": 3,
+              "time": "2019-02-15T12:58:40",
+              "archiveType": "FS",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 9432,
+                "failingTests": [
+                  {
+                    "testId": "N5.13"
+                  },
+                  {
+                    "testId": "N5.51"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 13615728764,
+                "duration": 8698
+              }
+            },
+            {
+              "id": 4,
+              "time": "2019-03-08T01:01:51",
+              "archiveType": "N5",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 10231,
+                "failingTests": [
+                  {
+                    "testId": "N5.46"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 9584547467,
+                "duration": 8617
+              }
+            },
+            {
+              "id": 5,
+              "time": "2019-03-01T03:35:29",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 8550,
+                "failingTests": [
+                  {
+                    "testId": "N5.14"
+                  },
+                  {
+                    "testId": "N5.22"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 129773970,
+                "duration": 7792
+              }
+            },
+            {
+              "id": 6,
+              "time": "2019-03-02T03:35:33",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 15359,
+                "failingTests": [
+                  {
+                    "testId": "N5.18"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 1613285499,
+                "duration": 614
+              }
+            },
+            {
+              "id": 7,
+              "time": "2019-04-12T05:25:10",
+              "archiveType": "N3",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 16659,
+                "failingTests": [
+                  {
+                    "testId": "N5.26"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 2297535964,
+                "duration": 15657
+              }
+            },
+            {
+              "id": 8,
+              "time": "2019-04-13T12:57:51",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 3252,
+                "failingTests": [
+                  {
+                    "testId": "N5.32"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 11027390740,
+                "duration": 3917
+              }
+            },
+            {
+              "id": 9,
+              "time": "2019-02-22T06:25:03",
+              "archiveType": "FS",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 17544,
+                "failingTests": [
+                  {
+                    "testId": "N5.06"
+                  },
+                  {
+                    "testId": "N5.23"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 9213000233,
+                "duration": 7615
+              }
+            },
+            {
+              "id": 10,
+              "time": "2019-05-09T06:36:25",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 4771,
+                "failingTests": [
+                  {
+                    "testId": "N5.17"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 11229543028,
+                "duration": 16633
+              }
+            },
+            {
+              "id": 11,
+              "time": "2019-04-30T01:05:27",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 12304,
+                "failingTests": [
+                  {
+                    "testId": "N5.23"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 953548414,
+                "duration": 3436
+              }
+            },
+            {
+              "id": 12,
+              "time": "2019-03-14T02:42:16",
+              "archiveType": "N3",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 1288,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 3071268562,
+                "duration": 12879
+              }
+            },
+            {
+              "id": 13,
+              "time": "2019-03-30T07:38:30",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 2001,
+                "failingTests": [
+                  {
+                    "testId": "N5.49"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 8950061930,
+                "duration": 2027
+              }
+            },
+            {
+              "id": 14,
+              "time": "2019-02-13T09:29:16",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 15165,
+                "failingTests": [
+                  {
+                    "testId": "N5.51"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 11397754990,
+                "duration": 15753
+              }
+            },
+            {
+              "id": 15,
+              "time": "2019-04-30T02:42:01",
+              "archiveType": "N3",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 6012,
+                "failingTests": [
+                  {
+                    "testId": "N5.13"
+                  },
+                  {
+                    "testId": "N5.18"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 14611924952,
+                "duration": 12705
+              }
+            },
+            {
+              "id": 16,
+              "time": "2019-04-22T12:09:16",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 17884,
+                "failingTests": [
+                  {
+                    "testId": "N5.46"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 1278594782,
+                "duration": 8119
+              }
+            },
+            {
+              "id": 17,
+              "time": "2019-05-17T12:13:02",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 14299,
+                "failingTests": [
+                  {
+                    "testId": "N5.04"
+                  },
+                  {
+                    "testId": "N5.60"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 11358074827,
+                "duration": 14518
+              }
+            },
+            {
+              "id": 18,
+              "time": "2019-02-12T03:39:26",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 12772,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 4192554729,
+                "duration": 6684
+              }
+            },
+            {
+              "id": 19,
+              "time": "2019-02-24T12:35:14",
+              "archiveType": "N3",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 2913,
+                "failingTests": [
+                  {
+                    "testId": "N5.28"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 7532763986,
+                "duration": 5939
+              }
+            },
+            {
+              "id": 20,
+              "time": "2019-03-18T06:19:05",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 3349,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 2038603732,
+                "duration": 16428
+              }
+            },
+            {
+              "id": 21,
+              "time": "2019-04-03T03:28:01",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 17595,
+                "failingTests": [
+                  {
+                    "testId": "N5.17"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 14124206237,
+                "duration": 17568
+              }
+            },
+            {
+              "id": 22,
+              "time": "2019-04-20T05:07:17",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 552,
+                "failingTests": [
+                  {
+                    "testId": "N5.60"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 7961119930,
+                "duration": 2046
+              }
+            },
+            {
+              "id": 23,
+              "time": "2019-05-31T04:34:51",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 8662,
+                "failingTests": [
+                  {
+                    "testId": "N5.20"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 10585892073,
+                "duration": 9122
+              }
+            },
+            {
+              "id": 24,
+              "time": "2019-02-14T10:01:10",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 11846,
+                "failingTests": [
+                  {
+                    "testId": "N5.17"
+                  },
+                  {
+                    "testId": "N5.42"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 14991120547,
+                "duration": 4868
+              }
+            },
+            {
+              "id": 25,
+              "time": "2019-04-03T04:28:57",
+              "archiveType": "N5",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 4884,
+                "failingTests": [
+                  {
+                    "testId": "N5.12"
+                  },
+                  {
+                    "testId": "N5.35"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 2019189570,
+                "duration": 1970
+              }
+            },
+            {
+              "id": 26,
+              "time": "2019-05-08T03:34:37",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 13917,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 1288720801,
+                "duration": 9201
+              }
+            },
+            {
+              "id": 27,
+              "time": "2019-04-25T08:38:22",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 17738,
+                "failingTests": [
+                  {
+                    "testId": "N5.60"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 3371454182,
+                "duration": 14397
+              }
+            },
+            {
+              "id": 28,
+              "time": "2019-02-12T01:43:39",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 657,
+                "failingTests": [
+                  {
+                    "testId": "N5.08"
+                  },
+                  {
+                    "testId": "N5.52"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 2337260514,
+                "duration": 13337
+              }
+            },
+            {
+              "id": 29,
+              "time": "2019-04-13T06:11:03",
+              "archiveType": "N3",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 10099,
+                "failingTests": [
+                  {
+                    "testId": "N5.29"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 4953790297,
+                "duration": 6797
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "version": "1.4.0",
+          "userInterface": "GUI",
+          "operatingSystem": "Windows",
+          "processingSessions": [
+            {
+              "id": 0,
+              "time": "2019-02-27T03:15:47",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 17802,
+                "failingTests": [
+                  {
+                    "testId": "N5.53"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 9862651849,
+                "duration": 3833
+              }
+            },
+            {
+              "id": 1,
+              "time": "2019-03-08T10:43:47",
+              "archiveType": "FS",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 17767,
+                "failingTests": [
+                  {
+                    "testId": "N5.17"
+                  },
+                  {
+                    "testId": "N5.33"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 7521261637,
+                "duration": 8890
+              }
+            },
+            {
+              "id": 2,
+              "time": "2019-04-19T01:55:21",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 11401,
+                "failingTests": [
+                  {
+                    "testId": "N5.21"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 114548105,
+                "duration": 6706
+              }
+            },
+            {
+              "id": 3,
+              "time": "2019-05-03T11:08:09",
+              "archiveType": "FS",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 17733,
+                "failingTests": [
+                  {
+                    "testId": "N5.51"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 15618511067,
+                "duration": 2639
+              }
+            },
+            {
+              "id": 4,
+              "time": "2019-02-21T08:47:26",
+              "archiveType": "N3",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 17795,
+                "failingTests": [
+                  {
+                    "testId": "N5.22"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 1190274057,
+                "duration": 2808
+              }
+            },
+            {
+              "id": 5,
+              "time": "2019-03-18T10:00:10",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 11543,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 548481825,
+                "duration": 12169
+              }
+            },
+            {
+              "id": 6,
+              "time": "2019-02-12T09:23:48",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 9282,
+                "failingTests": [
+                  {
+                    "testId": "N5.44"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 2424278715,
+                "duration": 6004
+              }
+            },
+            {
+              "id": 7,
+              "time": "2019-05-02T09:17:20",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 4718,
+                "failingTests": [
+                  {
+                    "testId": "N5.47"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 15269937709,
+                "duration": 5294
+              }
+            },
+            {
+              "id": 8,
+              "time": "2019-04-18T11:05:27",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 4363,
+                "failingTests": [
+                  {
+                    "testId": "N5.38"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 7497855979,
+                "duration": 4725
+              }
+            },
+            {
+              "id": 9,
+              "time": "2019-05-24T06:24:42",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 5166,
+                "failingTests": [
+                  {
+                    "testId": "N5.41"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 7763778639,
+                "duration": 11010
+              }
+            },
+            {
+              "id": 10,
+              "time": "2019-05-09T05:29:41",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 16178,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 6729656126,
+                "duration": 62
+              }
+            },
+            {
+              "id": 11,
+              "time": "2019-05-05T04:58:55",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 1503,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 142039786,
+                "duration": 8141
+              }
+            },
+            {
+              "id": 12,
+              "time": "2019-02-04T09:54:03",
+              "archiveType": "N3",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 8534,
+                "failingTests": [
+                  {
+                    "testId": "N5.63"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 5512993024,
+                "duration": 10572
+              }
+            },
+            {
+              "id": 13,
+              "time": "2019-04-07T07:02:47",
+              "archiveType": "N5",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 2767,
+                "failingTests": [
+                  {
+                    "testId": "N5.62"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 15254192708,
+                "duration": 5654
+              }
+            },
+            {
+              "id": 14,
+              "time": "2019-03-07T09:35:04",
+              "archiveType": "N3",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 5259,
+                "failingTests": [
+                  {
+                    "testId": "N5.42"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 10743759605,
+                "duration": 15510
+              }
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "version": "1.3.0",
+          "userInterface": "GUI",
+          "operatingSystem": "Windows",
+          "processingSessions": [
+            {
+              "id": 0,
+              "time": "2019-04-14T01:06:37",
+              "archiveType": "N5",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 3068,
+                "failingTests": [
+                  {
+                    "testId": "N5.59"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 9961946192,
+                "duration": 6928
+              }
+            },
+            {
+              "id": 1,
+              "time": "2019-05-16T08:06:55",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 11972,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 3085270900,
+                "duration": 5259
+              }
+            },
+            {
+              "id": 2,
+              "time": "2019-02-28T01:41:12",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 14864,
+                "failingTests": [
+                  {
+                    "testId": "N5.31"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 6167795874,
+                "duration": 1402
+              }
+            },
+            {
+              "id": 3,
+              "time": "2019-03-04T01:02:29",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 16832,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 2331708443,
+                "duration": 15068
+              }
+            },
+            {
+              "id": 4,
+              "time": "2019-04-20T09:54:18",
+              "archiveType": "N5",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 17234,
+                "failingTests": [
+                  {
+                    "testId": "N5.40"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 12579489438,
+                "duration": 371
+              }
+            },
+            {
+              "id": 5,
+              "time": "2019-05-03T04:41:52",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 10412,
+                "failingTests": [
+                  {
+                    "testId": "N5.37"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 15383984313,
+                "duration": 16233
+              }
+            },
+            {
+              "id": 6,
+              "time": "2019-04-17T01:45:18",
+              "archiveType": "N3",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 17067,
+                "failingTests": [
+                  {
+                    "testId": "N5.45"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 4652096147,
+                "duration": 812
+              }
+            },
+            {
+              "id": 7,
+              "time": "2019-03-05T10:10:03",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 4018,
+                "failingTests": [
+                  {
+                    "testId": "N5.18"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 7401904480,
+                "duration": 9824
+              }
+            },
+            {
+              "id": 8,
+              "time": "2019-05-08T08:04:38",
+              "archiveType": "N5",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 1619,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 2839636915,
+                "duration": 4737
+              }
+            },
+            {
+              "id": 9,
+              "time": "2019-04-08T08:35:17",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 6402,
+                "failingTests": [
+                  {
+                    "testId": "N5.17"
+                  },
+                  {
+                    "testId": "N5.22"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 6970872297,
+                "duration": 12949
+              }
+            },
+            {
+              "id": 10,
+              "time": "2019-02-03T03:21:15",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 7628,
+                "failingTests": [
+                  {
+                    "testId": "N5.20"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 13994957346,
+                "duration": 15662
+              }
+            },
+            {
+              "id": 11,
+              "time": "2019-03-03T05:10:47",
+              "archiveType": "N5",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 11833,
+                "failingTests": [
+                  {
+                    "testId": "N5.20"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 8280018218,
+                "duration": 243
+              }
+            },
+            {
+              "id": 12,
+              "time": "2019-03-04T09:11:18",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 17043,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 7092647074,
+                "duration": 7295
+              }
+            },
+            {
+              "id": 13,
+              "time": "2019-03-21T02:28:23",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 3315,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 13105718872,
+                "duration": 13426
+              }
+            },
+            {
+              "id": 14,
+              "time": "2019-03-25T05:00:58",
+              "archiveType": "N5",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 9479,
+                "failingTests": [
+                  {
+                    "testId": "N5.55"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 5181121256,
+                "duration": 3999
+              }
+            },
+            {
+              "id": 15,
+              "time": "2019-03-24T08:49:39",
+              "archiveType": "FS",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 17607,
+                "failingTests": [
+                  {
+                    "testId": "N5.36"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 10825535828,
+                "duration": 8274
+              }
+            },
+            {
+              "id": 16,
+              "time": "2019-04-17T02:22:04",
+              "archiveType": "N5",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 6540,
+                "failingTests": [
+                  {
+                    "testId": "N5.20"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 4983084774,
+                "duration": 14020
+              }
+            },
+            {
+              "id": 17,
+              "time": "2019-05-06T05:56:13",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 11814,
+                "failingTests": [
+                  {
+                    "testId": "N5.23"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 2201467732,
+                "duration": 15963
+              }
+            },
+            {
+              "id": 18,
+              "time": "2019-02-07T07:49:49",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 14507,
+                "failingTests": [
+                  {
+                    "testId": "N5.22"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 9897415691,
+                "duration": 1372
+              }
+            },
+            {
+              "id": 19,
+              "time": "2019-05-05T01:45:52",
+              "archiveType": "FS",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 17972,
+                "failingTests": []
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 7113238515,
+                "duration": 17331
+              }
+            },
+            {
+              "id": 20,
+              "time": "2019-02-27T03:07:46",
+              "archiveType": "N5",
+              "archiveSource": "AIP",
+              "testRun": {
+                "duration": 2933,
+                "failingTests": [
+                  {
+                    "testId": "N5.20"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 9701724625,
+                "duration": 3635
+              }
+            },
+            {
+              "id": 21,
+              "time": "2019-02-19T10:36:57",
+              "archiveType": "N5",
+              "archiveSource": "folder",
+              "testRun": {
+                "duration": 3351,
+                "failingTests": [
+                  {
+                    "testId": "N5.13"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 14313097283,
+                "duration": 4364
+              }
+            },
+            {
+              "id": 22,
+              "time": "2019-02-13T10:29:14",
+              "archiveType": "N3",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 6294,
+                "failingTests": [
+                  {
+                    "testId": "N5.38"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 6399730273,
+                "duration": 12096
+              }
+            },
+            {
+              "id": 23,
+              "time": "2019-02-07T10:33:47",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 11037,
+                "failingTests": [
+                  {
+                    "testId": "N5.30"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "AIP",
+                "size": 2266567770,
+                "duration": 7734
+              }
+            },
+            {
+              "id": 24,
+              "time": "2019-03-23T02:35:16",
+              "archiveType": "FS",
+              "archiveSource": "SIP",
+              "testRun": {
+                "duration": 11666,
+                "failingTests": [
+                  {
+                    "testId": "N5.32"
+                  }
+                ]
+              },
+              "packageCreation": {
+                "type": "SIP",
+                "size": 6592397912,
+                "duration": 13153
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
