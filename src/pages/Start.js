@@ -111,7 +111,7 @@ export default {
       this.loaded = true;
     },
     pushIfNotExists(array, value) {
-      if (array.findIndex(arrayElement => arrayElement === value) === -1) {
+      if (array.findIndex(arrayElement => typeof (value) === 'object' ? arrayElement.id === value.id : arrayElement === value) === -1) {
         array.push(value);
       }
       return array;
@@ -167,25 +167,40 @@ export default {
         organization.arkadeClients.forEach(arkadeClient => {
           this.facets.arkadeClient.operatingSystem = this.pushIfNotExists(
             this.facets.arkadeClient.operatingSystem,
-            arkadeClient.operatingSystem
+            {
+              id: arkadeClient.operatingSystem,
+              name: arkadeClient.operatingSystem
+            }
           );
           this.facets.arkadeClient.userInterface = this.pushIfNotExists(
             this.facets.arkadeClient.userInterface,
-            arkadeClient.userInterface
+            {
+              id: arkadeClient.userInterface,
+              name: arkadeClient.userInterface
+            }
           );
           this.facets.arkadeClient.version = this.pushIfNotExists(
             this.facets.arkadeClient.version,
-            arkadeClient.version
+            {
+              id: arkadeClient.version,
+              name: arkadeClient.version
+            }
           );
 
           arkadeClient.processingSessions.forEach(processingSession => {
             this.facets.processingSession.archiveSource = this.pushIfNotExists(
               this.facets.processingSession.archiveSource,
-              processingSession.archiveSource
+              {
+                id: processingSession.archiveSource,
+                name: processingSession.archiveSource
+              }
             );
             this.facets.processingSession.archiveType = this.pushIfNotExists(
               this.facets.processingSession.archiveType,
-              processingSession.archiveType
+              {
+                id: processingSession.archiveType,
+                name: processingSession.archiveType
+              }
             );
           });
         });

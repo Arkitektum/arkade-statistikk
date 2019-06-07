@@ -79,11 +79,11 @@
               <ul class='facets'>
                 <li
                   v-for='operatingSystem in facets.arkadeClient.operatingSystem'
-                  v-bind:key='operatingSystem'
+                  v-bind:key='operatingSystem.id'
                 >
                   <label>
-                    <input type='checkbox'>
-                    {{ operatingSystem }}
+                    <input type='checkbox' v-on:click='toggleSelectedFacet("operatingSystem", operatingSystem.id)'>
+                    {{ operatingSystem.name }}
                   </label>
                 </li>
               </ul>
@@ -101,11 +101,11 @@
               <ul class='facets'>
                 <li
                   v-for='userInterface in facets.arkadeClient.userInterface'
-                  v-bind:key='userInterface'
+                  v-bind:key='userInterface.id'
                 >
                   <label>
-                    <input type='checkbox'>
-                    {{ userInterface }}
+                    <input type='checkbox' v-on:click='toggleSelectedFacet("userInterface", userInterface.id)'>
+                    {{ userInterface.name }}
                   </label>
                 </li>
               </ul>
@@ -121,10 +121,10 @@
                 v-on:click='expandedFacets.version = !expandedFacets.version'
               >Version</span>
               <ul class='facets'>
-                <li v-for='version in facets.arkadeClient.version' v-bind:key='version'>
+                <li v-for='version in facets.arkadeClient.version' v-bind:key='version.id'>
                   <label>
-                    <input type='checkbox'>
-                    {{ version }}
+                    <input type='checkbox' v-on:click='toggleSelectedFacet("version", version.id)'>
+                    {{ version.name }}
                   </label>
                 </li>
               </ul>
@@ -153,11 +153,11 @@
               <ul class='facets'>
                 <li
                   v-for='archiveSource in facets.processingSession.archiveSource'
-                  v-bind:key='archiveSource'
+                  v-bind:key='archiveSource.id'
                 >
                   <label>
-                    <input type='checkbox'>
-                    {{ archiveSource }}
+                    <input type='checkbox' v-on:click='toggleSelectedFacet("archiveSource", archiveSource.id)'>
+                    {{ archiveSource.name }}
                   </label>
                 </li>
               </ul>
@@ -175,11 +175,11 @@
               <ul class='facets'>
                 <li
                   v-for='archiveType in facets.processingSession.archiveType'
-                  v-bind:key='archiveType'
+                  v-bind:key='archiveType.id'
                 >
                   <label>
-                    <input type='checkbox'>
-                    {{ archiveType }}
+                    <input type='checkbox' v-on:click='toggleSelectedFacet("archiveType", archiveType.id)'>
+                    {{ archiveType.name }}
                   </label>
                 </li>
               </ul>
