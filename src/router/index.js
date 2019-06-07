@@ -1,10 +1,10 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import StartPage from '@/pages/Start'
+import Vue from 'vue';
+import VueRouter from 'vue-router';
+import StartPage from '@/pages/Start.vue';
 
-Vue.use(Router)
+Vue.use(VueRouter);
 
-export default new Router({
+export default new VueRouter({
   routes: [
     {
       path: '/',
@@ -14,6 +14,6 @@ export default new Router({
     {
       path: '/:chart',
       component: StartPage
-     }
+    }
   ]
-})
+});

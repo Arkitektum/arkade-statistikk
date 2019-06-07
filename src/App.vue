@@ -4,40 +4,5 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "App"
-};
-</script>
-
-<style>
-body {
-  font-family: "Roboto", sans-serif;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-}
-#app {
-  height: 100%;
-}
-h1 {
-  font-size: 20px;
-  line-height: 28px;
-  font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-  margin: 0;
-}
-.subtitle {
-  font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-  font-size: 13px;
-  line-height: 20px;
-  color: rgba(0, 0, 0, 0.55);
-  display: block;
-}
-.title-container {
-  margin-bottom: 32px;
-}
-</style>
-
+<style lang="scss" src="./App.scss"></style>
+<script src="./App"></script>
