@@ -1,19 +1,6 @@
 <template>
   <div class='content'>
-    <div class='navbar'>
-      <div class='input-container'>
-        <datepicker
-          placeholder='Start Date'
-          v-model='startDate'
-          name='start-date'
-          class='datepicker'
-        ></datepicker>
-        <datepicker placeholder='End Date' v-model='endDate' name='end-date' class='datepicker'></datepicker>
-        <label>
-          <input type='checkbox' v-on:click='noDate = !noDate' v-bind:checked='noDate'>Lifetime
-        </label>
-      </div>
-    </div>
+    <div class='navbar'></div>
     <div class='flex'>
       <aside>
         <br>
@@ -82,7 +69,10 @@
                   v-bind:key='operatingSystem.id'
                 >
                   <label>
-                    <input type='checkbox' v-on:click='toggleSelectedFacet("operatingSystem", operatingSystem.id)'>
+                    <input
+                      type='checkbox'
+                      v-on:click='toggleSelectedFacet("operatingSystem", operatingSystem.id)'
+                    >
                     {{ operatingSystem.name }}
                   </label>
                 </li>
@@ -104,7 +94,10 @@
                   v-bind:key='userInterface.id'
                 >
                   <label>
-                    <input type='checkbox' v-on:click='toggleSelectedFacet("userInterface", userInterface.id)'>
+                    <input
+                      type='checkbox'
+                      v-on:click='toggleSelectedFacet("userInterface", userInterface.id)'
+                    >
                     {{ userInterface.name }}
                   </label>
                 </li>
@@ -156,7 +149,10 @@
                   v-bind:key='archiveSource.id'
                 >
                   <label>
-                    <input type='checkbox' v-on:click='toggleSelectedFacet("archiveSource", archiveSource.id)'>
+                    <input
+                      type='checkbox'
+                      v-on:click='toggleSelectedFacet("archiveSource", archiveSource.id)'
+                    >
                     {{ archiveSource.name }}
                   </label>
                 </li>
@@ -178,11 +174,41 @@
                   v-bind:key='archiveType.id'
                 >
                   <label>
-                    <input type='checkbox' v-on:click='toggleSelectedFacet("archiveType", archiveType.id)'>
+                    <input
+                      type='checkbox'
+                      v-on:click='toggleSelectedFacet("archiveType", archiveType.id)'
+                    >
                     {{ archiveType.name }}
                   </label>
                 </li>
               </ul>
+            </div>
+            <div
+              v-if='facets.processingSession.period'
+              v-bind:class='expandedFacets.period ? "expanded" : "collapsed"'
+              class='offset-left-1'
+            >
+              <span
+                class='sidebar-element expandable'
+                v-on:click='expandedFacets.period = !expandedFacets.period'
+              >Period</span>
+              <div class='facets'>
+                <datepicker
+                  placeholder='Start Date'
+                  v-model='selectedFacets.period.startDate'
+                  :disabledDates='{to: new Date(facets.processingSession.period.firstDate), from: new Date(facets.processingSession.period.lastDate)}'
+                  name='start-date'
+                  class='datepicker'
+                ></datepicker>
+                <datepicker
+                  placeholder='End Date'
+                  v-model='selectedFacets.period.endDate'
+                  :disabledDates='{to: new Date(facets.processingSession.period.firstDate), from: new Date(facets.processingSession.period.lastDate)}'
+                  name='end-date'
+                  class='datepicker'
+                ></datepicker>
+                <button v-on:click='noDate = !noDate' v-bind:disabled='noDate'>Clear</button>
+              </div>
             </div>
           </div>
         </div>
@@ -191,17 +217,14 @@
         <div class='graph-container'>
           <div class='card' v-if='selectedCharts.processingSessionsByDate'>
             <processing-sessions-by-date
-              v-bind:start-date='startDate'
-              v-bind:end-date='endDate'
-              v-bind:selected-facets='selectedFacets'
+              v-if='facets && facets.processingSession'
+              :firstDate='new Date(facets.processingSession.period.firstDate)'
+              :lastDate='new Date(facets.processingSession.period.lastDate)'
+              :selectedFacets='selectedFacets'
             ></processing-sessions-by-date>
           </div>
           <div class='card' v-if='selectedCharts.failingTestsByTestId'>
-            <failing-tests-by-test-id
-              v-bind:start-date='startDate'
-              v-bind:end-date='endDate'
-              v-bind:selected-facets='selectedFacets'
-            ></failing-tests-by-test-id>
+            <failing-tests-by-test-id :selectedFacets='selectedFacets'></failing-tests-by-test-id>
           </div>
         </div>
       </main>

@@ -2,20 +2,13 @@ import moment from 'moment';
 import BarChart from '@/components/chartTypes/BarChart';
 import { dateToYear, dateBeautify } from '@/utils/dateFormatter';
 import { removeDuplicate, groupData } from '@/utils/downloadFormatter';
+import { filterOrganizations, filterArkadeClients, filterProcessingSessions } from '@/utils/facetFilters';
 import dummydata from '@/data/dummydata.json';
 export default {
   components: {
     BarChart
   },
   props: {
-    startDate: {
-      type: Date,
-      required: false
-    },
-    endDate: {
-      type: Date,
-      required: false
-    },
     selectedFacets: {
       type: Object,
       required: false
@@ -31,18 +24,19 @@ export default {
   },
   computed: {
     _endDate() {
-      return this.endDate ? moment(this.endDate).format('YYYY-MM-DD') : null;
+      return this.selectedFacets && this.selectedFacets.period && this.selectedFacets.period.endDate
+        ? moment(this.selectedFacets && this.selectedFacets.period && this.selectedFacets.period.endDate).format('YYYY-MM-DD') : null;
     },
     _startDate() {
-      return this.startDate
-        ? moment(this.startDate).format('YYYY-MM-DD')
+      return this.selectedFacets && this.selectedFacets.period && this.selectedFacets.period.startDate
+        ? moment(this.selectedFacets && this.selectedFacets.period && this.selectedFacets.period.startDate).format('YYYY-MM-DD')
         : null;
     },
-    period() {
+    /* period() {
       return this.periodStart
         ? `${this._startDate}:${this._endDate}`
         : 'last-month';
-    },
+    }, */
     formattedPeriod() {
       if (this.startDate || this.endDate) {
         const startDate = this.startDate
@@ -110,27 +104,9 @@ export default {
     getFailingTestsByTestId() {
       let failingTests = {};
       // Get processing sessions from data
-      const organizations = this.dummydata.organizations.filter(
-        organization => {
-          let isSelectedOrganization = true;
-          if (
-            this.selectedFacets &&
-            this.selectedFacets.organization &&
-            this.selectedFacets.organization.length
-          ) {
-            isSelectedOrganization = this.selectedFacets.organization.filter(
-              organizationFacetId => {
-                return organization.id === organizationFacetId;
-              }
-            ).length;
-          }
-          return isSelectedOrganization;
-        }
-      );
-
-      organizations.forEach(organization => {
-        return organization.arkadeClients.forEach(arkadeClient => {
-          arkadeClient.processingSessions.forEach(processingSession => {
+      filterOrganizations(this.selectedFacets, this.dummydata.organizations).forEach(organization => {
+        filterArkadeClients(this.selectedFacets, organization.arkadeClients).forEach(arkadeClient => {
+          filterProcessingSessions(this.selectedFacets, arkadeClient.processingSessions).forEach(processingSession => {
             if (this.isInPeriod(processingSession.time)) {
               if (
                 processingSession.testRun &&
@@ -154,7 +130,6 @@ export default {
       });
       return { labels, data };
     },
-
     showProcessingSessionsByStartDate() {
       this.chart = this.getFailingTestsByTestId();
       this.loaded = true;

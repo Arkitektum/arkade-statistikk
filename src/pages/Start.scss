@@ -88,12 +88,12 @@ main {
 
 .offset-left-0 .sidebar-element,
 .offset-left-0 .facets {
-  padding-left: 16px;
+  padding-left: 1em;
 }
 
 .offset-left-1 .sidebar-element,
 .offset-left-1 .facets {
-  padding-left: 32px;
+  padding-left: 2em;
 }
 
 .input-container {
@@ -102,17 +102,28 @@ main {
   border-bottom: 1px solid #ccc;
 }
 
-.input-container .datepicker {
+.facets .datepicker {
   display: inline-block;
 }
 
-.input-container input {
-  padding: 1.25rem;
+
+.facets .datepicker input {
+  padding: 6px;
   background-color: #fff;
   border: 1px solid #e8e9ed;
   font-size: 1rem;
   display: inline-block;
+  width: 100px;
   border: 1px solid #e8e9ed;
+  height: 42px;
+  ;
+}
+
+.facets button {
+  height: 42px;
+  font-size: 1rem;
+  border: 1px solid #e8e9ed;
+  cursor: pointer;
 }
 
 .graph-container {

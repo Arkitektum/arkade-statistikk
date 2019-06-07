@@ -31,7 +31,11 @@ export default {
         version: [],
         processingSession: [],
         archiveSource: [],
-        archiveType: []
+        archiveType: [],
+        period: {
+          startDate: null,
+          endDate: null
+        }
       },
       expandedFacets: {
         organization: true,
@@ -41,7 +45,8 @@ export default {
         version: true,
         processingSession: true,
         archiveSource: true,
-        archiveType: true
+        archiveType: true,
+        period: true
       }
     };
   },
@@ -156,7 +161,11 @@ export default {
         },
         processingSession: {
           archiveSource: [],
-          archiveType: []
+          archiveType: [],
+          period: {
+            firstDate: null,
+            lastDate: null
+          }
         }
       };
       this.dummydata.organizations.forEach(organization => {
@@ -202,6 +211,12 @@ export default {
                 name: processingSession.archiveType
               }
             );
+            this.facets.processingSession.period.firstDate = !this.facets.processingSession.period.firstDate || moment(processingSession.time).isBefore(this.facets.processingSession.period.firstDate)
+              ? processingSession.time
+              : this.facets.processingSession.period.firstDate;
+            this.facets.processingSession.period.lastDate = !this.facets.processingSession.period.lastDate || moment(processingSession.time).isAfter(this.facets.processingSession.period.lastDate)
+              ? processingSession.time
+              : this.facets.processingSession.period.lastDate;
           });
         });
       });

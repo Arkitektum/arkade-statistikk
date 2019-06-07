@@ -2,17 +2,18 @@ import moment from 'moment';
 import LineChart from '@/components/chartTypes/LineChart';
 import { dateToYear, dateBeautify } from '@/utils/dateFormatter';
 import { removeDuplicate, groupData } from '@/utils/downloadFormatter';
+import { filterOrganizations, filterArkadeClients, filterProcessingSessions } from '@/utils/facetFilters';
 import dummydata from '@/data/dummydata.json';
 export default {
   components: {
     LineChart
   },
   props: {
-    startDate: {
+    firstDate: {
       type: Date,
       required: false
     },
-    endDate: {
+    lastDate: {
       type: Date,
       required: false
     },
@@ -30,18 +31,20 @@ export default {
   },
   computed: {
     _endDate() {
-      return this.endDate ? moment(this.endDate).format('YYYY-MM-DD') : null;
+      return this.selectedFacets && this.selectedFacets.period && this.selectedFacets.period.endDate
+        ? moment(this.selectedFacets && this.selectedFacets.period && this.selectedFacets.period.endDate).format('YYYY-MM-DD') : null;
     },
     _startDate() {
-      return this.startDate
-        ? moment(this.startDate).format('YYYY-MM-DD')
+      return this.selectedFacets && this.selectedFacets.period && this.selectedFacets.period.startDate
+        ? moment(this.selectedFacets && this.selectedFacets.period && this.selectedFacets.period.startDate).format('YYYY-MM-DD')
         : null;
     },
+    /*
     period() {
       return this.periodStart
         ? `${this._startDate}:${this._endDate}`
         : 'last-month';
-    },
+    }, */
     formattedPeriod() {
       return this.periodStart
         ? `${dateBeautify(this._startDate)} - ${dateBeautify(this._endDate)}`
@@ -58,14 +61,6 @@ export default {
         this.showProcessingSessionsByStartDate();
       },
       deep: true
-    },
-    startDate() {
-      //  this.resetState();
-      this.showProcessingSessionsByStartDate();
-    },
-    endDate() {
-      //   this.resetState();
-      this.showProcessingSessionsByStartDate();
     }
   },
   methods: {
@@ -86,56 +81,27 @@ export default {
 
     getProcessingSessionsByDate() {
       let processingSessions = {};
-      let firstDate = null;
-      let lastDate = null;
+      let startDate = this.selectedFacets && this.selectedFacets.period && this.selectedFacets.period.startDate ? this.selectedFacets.period.startDate : this.firstDate;
+      let endDate = this.selectedFacets && this.selectedFacets.period && this.selectedFacets.period.endDate ? this.selectedFacets.period.endDate : this.lastDate;
       // Get processing sessions from data
-      const organizations = this.dummydata.organizations.filter(
-        organization => {
-          let isSelectedOrganization = true;
-          if (
-            this.selectedFacets &&
-            this.selectedFacets.organization &&
-            this.selectedFacets.organization.length
-          ) {
-            isSelectedOrganization = this.selectedFacets.organization.filter(
-              organizationFacetId => {
-                return organization.id === organizationFacetId;
-              }
-            ).length;
-          }
-          return isSelectedOrganization;
-        }
-      );
-      organizations.forEach(organization => {
-        return organization.arkadeClients.forEach(arkadeClient => {
-          arkadeClient.processingSessions.forEach(processingSession => {
+      filterOrganizations(this.selectedFacets, this.dummydata.organizations).forEach(organization => {
+        filterArkadeClients(this.selectedFacets, organization.arkadeClients).forEach(arkadeClient => {
+          filterProcessingSessions(this.selectedFacets, arkadeClient.processingSessions).forEach(processingSession => {
             let date = moment(processingSession.time).format('YYYY-MM-DD');
-            firstDate =
-              !firstDate || moment(date).isBefore(firstDate) ? date : firstDate;
-            lastDate =
-              !lastDate || moment(date).isAfter(lastDate) ? date : lastDate;
             processingSessions[date]
               ? processingSessions[date]++
               : (processingSessions[date] = 1);
           });
         });
       });
-
-      firstDate = this.startDate
-        ? moment(this.startDate).format('YYYY-MM-DD')
-        : firstDate;
-      lastDate = this.endDate
-        ? moment(this.endDate).format('YYYY-MM-DD')
-        : lastDate;
-      let labels = this.enumerateDaysBetweenDates(firstDate, lastDate);
-      let data = this.enumerateDaysBetweenDates(firstDate, lastDate).map(
+      let labels = this.enumerateDaysBetweenDates(startDate, endDate);
+      let data = this.enumerateDaysBetweenDates(startDate, endDate).map(
         date => {
           return processingSessions[date] ? processingSessions[date] : 0;
         }
       );
       return { labels, data };
     },
-
     showProcessingSessionsByStartDate() {
       this.chart = this.getProcessingSessionsByDate();
       this.loaded = true;
