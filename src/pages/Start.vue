@@ -30,17 +30,50 @@
               class='sidebar-element expandable'
               v-on:click='expandedFacets.organization = !expandedFacets.organization'
             >Organization</span>
-            <ul class='facets'>
-              <li v-for='organization in facets.organization' v-bind:key='organization.id'>
-                <label>
-                  <input
-                    type='checkbox'
-                    v-on:click='toggleSelectedFacet("organization", organization.id)'
-                  >
-                  {{ organization.name }}
-                </label>
-              </li>
-            </ul>
+
+            <div
+              v-if='facets.organization.name'
+              v-bind:class='expandedFacets.organizationName ? "expanded" : "collapsed"'
+              class='offset-left-1'
+            >
+              <span
+                class='sidebar-element expandable'
+                v-on:click='expandedFacets.organizationName = !expandedFacets.organizationName'
+              >Organization name</span>
+              <ul class='facets'>
+                <li v-for='organizationName in facets.organization.name' v-bind:key='organizationName.id'>
+                  <label>
+                    <input
+                      type='checkbox'
+                      v-on:click='toggleSelectedFacet("organizationName", organizationName.id)'
+                    >
+                    {{ organizationName.name }}
+                  </label>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              v-if='facets.organization.type'
+              v-bind:class='expandedFacets.organizationType ? "expanded" : "collapsed"'
+              class='offset-left-1'
+            >
+              <span
+                class='sidebar-element expandable'
+                v-on:click='expandedFacets.organizationType = !expandedFacets.organizationType'
+              >Organization type</span>
+              <ul class='facets'>
+                <li v-for='organizationType in facets.organization.type' v-bind:key='organizationType.id'>
+                  <label>
+                    <input
+                      type='checkbox'
+                      v-on:click='toggleSelectedFacet("organizationType", organizationType.id)'
+                    >
+                    {{ organizationType.name }}
+                  </label>
+                </li>
+              </ul>
+            </div>
           </div>
 
           <div

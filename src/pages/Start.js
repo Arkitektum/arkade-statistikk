@@ -24,7 +24,8 @@ export default {
         failingTestsByTestId: true
       },
       selectedFacets: {
-        organization: [],
+        organizationName: [],
+        organizationType: [],
         arkadeClient: [],
         operatingSystem: [],
         userInterface: [],
@@ -39,6 +40,8 @@ export default {
       },
       expandedFacets: {
         organization: true,
+        organizationName: true,
+        organizationType: true,
         arkadeClient: true,
         operatingSystem: true,
         userInterface: true,
@@ -153,7 +156,10 @@ export default {
     },
     getFacets() {
       this.facets = {
-        organization: [],
+        organization: {
+          name: [],
+          type: []
+        },
         arkadeClient: {
           operatingSystem: [],
           userInterface: [],
@@ -169,10 +175,19 @@ export default {
         }
       };
       this.dummydata.organizations.forEach(organization => {
-        this.facets.organization.push({
-          id: organization.id,
-          name: `${organization.name} (${organization.type})`
-        });
+        this.facets.organization.name = this.pushIfNotExists(
+          this.facets.organization.name,
+          {
+            id: organization.id,
+            name: `${organization.name}`
+          });
+        this.facets.organization.type = this.pushIfNotExists(
+          this.facets.organization.type,
+          {
+            id: organization.type,
+            name: organization.type
+          }
+        );
         organization.arkadeClients.forEach(arkadeClient => {
           this.facets.arkadeClient.operatingSystem = this.pushIfNotExists(
             this.facets.arkadeClient.operatingSystem,

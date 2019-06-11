@@ -2,19 +2,27 @@ import { isInPeriod } from '@/utils/helpers';
 
 export const filterOrganizations = (selectedFacets, organizations) => {
   return organizations.filter(organization => {
-    let isSelectedOrganization = true;
-    if (
-      selectedFacets &&
-      selectedFacets.organization &&
-      selectedFacets.organization.length
-    ) {
-      isSelectedOrganization = selectedFacets.organization.filter(
-        organizationFacetId => {
-          return organization.id === organizationFacetId;
-        }
-      ).length;
+    let isSelectedOrganizationName = true;
+    let isSelectedOrganizationType = true;
+    if (selectedFacets) {
+      // Is selected organization name
+      if (selectedFacets.organizationName && selectedFacets.organizationName.length){
+        isSelectedOrganizationName = selectedFacets.organizationName.filter(
+          organizationNameFacetId => {
+            return organization.id === organizationNameFacetId;
+          }
+        ).length;
+      }
+      // Is selected organization type
+      if (selectedFacets.organizationType && selectedFacets.organizationType.length){
+        isSelectedOrganizationType = selectedFacets.organizationType.filter(
+          organizationTypeFacetId => {
+            return organization.type === organizationTypeFacetId;
+          }
+        ).length;
+      }
     }
-    return isSelectedOrganization;
+    return isSelectedOrganizationName && isSelectedOrganizationType;
   }
   );
 };
