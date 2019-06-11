@@ -1,9 +1,7 @@
 <template>
   <div class='content'>
-    <div class='navbar'></div>
     <div class='flex'>
       <aside>
-        <br>
         <div class='sidebar-element-section offset-left-0'>
           <span class='sidebar-element-section-title'>Charts</span>
           <ul class='facets'>
@@ -31,7 +29,7 @@
             <span
               class='sidebar-element expandable'
               v-on:click='expandedFacets.organization = !expandedFacets.organization'
-            >Organization:</span>
+            >Organization</span>
             <ul class='facets'>
               <li v-for='organization in facets.organization' v-bind:key='organization.id'>
                 <label>
@@ -53,7 +51,7 @@
             <span
               class='sidebar-element expandable'
               v-on:click='expandedFacets.arkadeClient = !expandedFacets.arkadeClient'
-            >Arkade client:</span>
+            >Arkade client</span>
             <div
               v-if='facets.arkadeClient.operatingSystem'
               v-bind:class='expandedFacets.operatingSystem ? "expanded" : "collapsed"'
@@ -193,21 +191,26 @@
                 v-on:click='expandedFacets.period = !expandedFacets.period'
               >Period</span>
               <div class='facets'>
-                <datepicker
-                  placeholder='Start Date'
-                  v-model='selectedFacets.period.startDate'
-                  :disabledDates='{to: new Date(facets.processingSession.period.firstDate), from: new Date(facets.processingSession.period.lastDate)}'
-                  name='start-date'
-                  class='datepicker'
-                ></datepicker>
-                <datepicker
-                  placeholder='End Date'
-                  v-model='selectedFacets.period.endDate'
-                  :disabledDates='{to: new Date(facets.processingSession.period.firstDate), from: new Date(facets.processingSession.period.lastDate)}'
-                  name='end-date'
-                  class='datepicker'
-                ></datepicker>
-                <button v-on:click='noDate = !noDate' v-bind:disabled='noDate'>Clear</button>
+                <div class='input-group'>
+                  <datepicker
+                    placeholder='Start Date'
+                    v-model='selectedFacets.period.startDate'
+                    :disabledDates='{to: new Date(facets.processingSession.period.firstDate), from: new Date(facets.processingSession.period.lastDate)}'
+                    name='start-date'
+                    class='datepicker'
+                  ></datepicker>
+                  <button v-on:click='selectedFacets.period.startDate = null' v-bind:disabled='!selectedFacets.period.startDate'>Clear</button>
+                </div>
+                <div class='input-group'>
+                  <datepicker
+                    placeholder='End Date'
+                    v-model='selectedFacets.period.endDate'
+                    :disabledDates='{to: new Date(facets.processingSession.period.firstDate), from: new Date(facets.processingSession.period.lastDate)}'
+                    name='end-date'
+                    class='datepicker'
+                  ></datepicker>
+                  <button v-on:click='selectedFacets.period.endDate = null' v-bind:disabled='!selectedFacets.period.endDate'>Clear</button>
+                </div>
               </div>
             </div>
           </div>
