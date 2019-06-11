@@ -133,6 +133,45 @@
             >Processing session</span>
 
             <div
+              v-if='facets.processingSession.period'
+              v-bind:class='expandedFacets.period ? "expanded" : "collapsed"'
+              class='offset-left-1'
+            >
+              <span
+                class='sidebar-element expandable'
+                v-on:click='expandedFacets.period = !expandedFacets.period'
+              >Period</span>
+              <div class='facets'>
+                <div class='input-group'>
+                  <datepicker
+                    placeholder='Start Date'
+                    v-model='selectedFacets.period.startDate'
+                    :disabledDates='{to: new Date(facets.processingSession.period.firstDate), from: new Date(facets.processingSession.period.lastDate)}'
+                    name='start-date'
+                    class='datepicker'
+                  ></datepicker>
+                  <button
+                    v-on:click='selectedFacets.period.startDate = null'
+                    v-bind:disabled='!selectedFacets.period.startDate'
+                  >Clear</button>
+                </div>
+                <div class='input-group'>
+                  <datepicker
+                    placeholder='End Date'
+                    v-model='selectedFacets.period.endDate'
+                    :disabledDates='{to: new Date(facets.processingSession.period.firstDate), from: new Date(facets.processingSession.period.lastDate)}'
+                    name='end-date'
+                    class='datepicker'
+                  ></datepicker>
+                  <button
+                    v-on:click='selectedFacets.period.endDate = null'
+                    v-bind:disabled='!selectedFacets.period.endDate'
+                  >Clear</button>
+                </div>
+              </div>
+            </div>
+
+            <div
               v-if='facets.processingSession.archiveSource'
               v-bind:class='expandedFacets.archiveSource ? "expanded" : "collapsed"'
               class='offset-left-1'
@@ -180,38 +219,6 @@
                   </label>
                 </li>
               </ul>
-            </div>
-            <div
-              v-if='facets.processingSession.period'
-              v-bind:class='expandedFacets.period ? "expanded" : "collapsed"'
-              class='offset-left-1'
-            >
-              <span
-                class='sidebar-element expandable'
-                v-on:click='expandedFacets.period = !expandedFacets.period'
-              >Period</span>
-              <div class='facets'>
-                <div class='input-group'>
-                  <datepicker
-                    placeholder='Start Date'
-                    v-model='selectedFacets.period.startDate'
-                    :disabledDates='{to: new Date(facets.processingSession.period.firstDate), from: new Date(facets.processingSession.period.lastDate)}'
-                    name='start-date'
-                    class='datepicker'
-                  ></datepicker>
-                  <button v-on:click='selectedFacets.period.startDate = null' v-bind:disabled='!selectedFacets.period.startDate'>Clear</button>
-                </div>
-                <div class='input-group'>
-                  <datepicker
-                    placeholder='End Date'
-                    v-model='selectedFacets.period.endDate'
-                    :disabledDates='{to: new Date(facets.processingSession.period.firstDate), from: new Date(facets.processingSession.period.lastDate)}'
-                    name='end-date'
-                    class='datepicker'
-                  ></datepicker>
-                  <button v-on:click='selectedFacets.period.endDate = null' v-bind:disabled='!selectedFacets.period.endDate'>Clear</button>
-                </div>
-              </div>
             </div>
           </div>
         </div>
